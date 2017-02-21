@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test Survey</h2>
+      </div>
+      <form id="stress-test">
+        <div class="form-group" id="group1">
+          <p>Are you stress? Which of these warning signs apply to you, please check all that apply!<p>
+          <input type="checkbox" name="warningsigns" value="1"> Loss of sleep.<br>
+          <input type="checkbox" name="warningsigns" value="1">Anxious<br>
+          <input type="checkbox" name="warningsigns" value="1">Pulling hair out.<br>
+          <input type="checkbox" name="warningsigns" value="1">Overwhelmed.<br>
+        </div>
+        <div class="form-group" id="group2">
+          <p>Symptoms that are linked to high-stress:</p>
+          <input type="checkbox" name="symptoms" value="1"> High blood pressure.<br>
+          <input type="checkbox" name="symptoms" value="1">Weightloss.<br>
+          <input type="checkbox" name="symptoms" value="1">Weightgain.<br>
+          <input type="checkbox" name="symptoms" value="1">Sleepwalking.<br>
+        </div>
+        <div class="form-group" id="group3">
+          <p>Ways to cope with high-stress:</p>
+          <input type="checkbox" name="cope" value="1"> Pet a cat.<br>
+          <input type="checkbox" name="cope" value="1">Meditate.<br>
+          <input type="checkbox" name="cope" value="1">Yoga (Bikram).<br>
+          <input type="checkbox" name="cope" value="1">Live well, eat healthy.<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="help-responses">
+        <p><b>You need help buddy! Here's a link to the health center</b></p>
+      </span>
+      <br>
+      <span id="great-responses">
+        <p><b>You're doing great, keep up the good work!</b></p>
+      </span>
+      <span id="learn-responses">
+        <p><b>Learn more by visiting the health center today!<b></p>
+      </span>
+    </div>
+  </body>
+</html>
